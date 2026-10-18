@@ -19,8 +19,8 @@ const config = {
 			fallback: '404.html'
 		}),
 		paths: {
-			// GitHub Pages serves the site at /<repo-name>. Set BASE_PATH='' for a custom domain.
-			base: dev ? '' : (process.env.BASE_PATH ?? '/Signatures')
+			// Served from the root of sigs.cloudwaddie.com. Set BASE_PATH (e.g. /Signatures) to host under a subpath.
+			base: dev ? '' : (process.env.BASE_PATH ?? '')
 		}
 	}
 };
