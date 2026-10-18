@@ -1,13 +1,14 @@
 # Signatures 🤗
 
 This project is an effort to make modding Minecraft: Bedrock Edition easier.\
-Please note that signatures/offsets on this website are generated automatically. There is a chance of them not working. Please do not rely on this and only use this for reference and learning purposes.
+It was originally made by the Horion team and is now maintained by CloudWaddie.\
+Signatures/offsets are no longer generated automatically. They are all added by hand. They can still break between game versions, so please use them for reference and learning purposes only.
 
 ## Contributing
 If you'd like to help with this project, there are two ways you can do that:
 
 **1. Website Feature Updates**\
-If you're sufficient in Svelte/Typescript development, feel free to add features you find missing! Just [open a pull request](https://github.com/HorionContinued/sigs/pulls) and we'll review it right away.
+If you're sufficient in Svelte/Typescript development, feel free to add features you find missing! Just [open a pull request](https://github.com/CloudWaddie/Signatures/pulls) and we'll review it right away.
 
 **2. Documenting functions**\
 We're currently documenting functions/classes to make it easier for developers to find out what something is doing.\
@@ -22,4 +23,4 @@ Example:
 ```
 
 ## Help
-If you need help with something, feel free to join our [discord server](https://horion.download/discord).
+If you need help with something, [open an issue](https://github.com/CloudWaddie/Signatures/issues).
