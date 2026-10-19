@@ -2,10 +2,12 @@
 	import Fuse from 'fuse.js';
 	import VirtualList from '@sveltejs/svelte-virtual-list';
 	import { faGithub } from '@fortawesome/free-brands-svg-icons'
+	import { faPlus } from '@fortawesome/free-solid-svg-icons'
 	import Fa from 'svelte-fa'
     import Modal, { bind } from 'svelte-simple-modal';
 	import { fly, slide } from 'svelte/transition';
 	import { onMount } from 'svelte';
+	import { base } from '$app/paths';
 	import { modalStore } from '../stores';
 
 	import Entry from '../components/Entry.svelte';
@@ -66,6 +68,7 @@
 		<h1 class="text-4xl">Signatures for {searchResults.length} functions {searchResults.length === 0 ? "😭" : "🤗"}</h1>
 	</div>
 	<div class="flex justify-end items-center space-x-5">
+		<a href="{base}/add/" aria-label="add signature"><Fa icon={faPlus} size="2x"/></a>
 		<a href="https://github.com/CloudWaddie/Signatures" aria-label="github"><Fa icon={faGithub} size="2x"/></a>
 	</div>
 </div>
